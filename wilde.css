@@ -19,3 +19,17 @@ color: black;
 .duchess{
     color:maroon;
 }
+
+th, td {
+    border: 3px solid;
+    color: darkblue;
+    text-align: center;
+    padding: 8px;
+    margin: 25px 50px 75px 100px ; 
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color:honeydew;
+}
