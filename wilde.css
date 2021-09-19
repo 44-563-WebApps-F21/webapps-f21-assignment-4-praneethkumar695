@@ -1,0 +1,21 @@
+.speech{
+font-family:sans-serif;
+font-size: 15px;
+color: black;
+}
+
+.stagedirections{
+    background-color: lightgreen;
+}
+
+.stagedirections:hover{
+    background-color: blue;
+    color: goldenrod;
+}
+
+.guido{
+    color: purple;
+}
+.duchess{
+    color:maroon;
+}
