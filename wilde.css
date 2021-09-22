@@ -5,12 +5,12 @@ color: black;
 }
 
 .stagedirections{
-    background-color: lightgreen;
+    background-color:linen;
 }
 
 .stagedirections:hover{
     background-color: blue;
-    color: goldenrod;
+    color:lightsalmon;
 }
 
 .guido{
