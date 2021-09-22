@@ -5,6 +5,8 @@ color: black;
 }
 
 .stagedirections{
+    font-family:serif;
+    font-size: 19px;
     background-color:linen;
 }
 
@@ -14,60 +16,71 @@ color: black;
 }
 
 .guido{
+    font-family:'Times New Roman';
+    font-size: 18px;
     color: yellow;
-}
+    }
+
 .duchess{
-    color:maroon;
-}
+        font-family:verdana;
+        font-size: 13px;
+        color:maroon;
+        }
 
-th, td {
-    border: 3px solid;
-    color: darkblue;
-    text-align: center;
-    padding: 8px;
-    margin: 25px 50px 75px 100px ; 
-}
-table{
-    border-collapse: collapse;
-}
-tr:nth-child(odd) {
-    background-color:honeydew;
-}
+        th, td {
+            border: 3px solid;
+            color: darkblue;
+            text-align: center;
+            padding: 8px;
+            margin: 25px 50px 75px 100px ; 
+        }
+        table{
+            border-collapse: collapse;
+        }
+        tr:nth-child(odd) {
+            background-color:honeydew;
+        }
+        
+        .guido:hover{
+            text-shadow:2px 3px 5px green;
+            border-bottom: 5px solid olivedrab;
+            box-shadow: 10px 10px 5px grey;
+        }
+        
+        .duchess:hover{
+            text-shadow:5px 5px 5px royalblue;
+            box-shadow: 10px 10px 5px grey;
+            border-bottom: 4px solid green;
+        }
+        
+        ul.navbar-horizontal {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: block;
+            background-color:slateblue;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a { 
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+           } 
+        
+          li a:hover:not(.active){
+              background-color: darkmagenta;
+          }
 
-.guido:hover{
-    text-shadow:2px 3px 5px green;
-}
+          .active {
+            background-color:grey;
+          }
+        
 
-.duchess:hover{
-    text-shadow:5px 5px 5px royalblue;
-}
-
-ul.navbar-horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-    background-color:slateblue;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a { 
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   } 
-
-  li a:hover:not(.active){
-      background-color: darkmagenta;
-  }
-
-  .active{
-    background-color:green;
-  }
  
